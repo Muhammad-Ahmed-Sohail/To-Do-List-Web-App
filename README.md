@@ -80,6 +80,29 @@ EXPOSE 80
 
 # Start nginx when the container launches
 CMD ["nginx", "-g", "daemon off;"]
+```
+
+## GitHub Pages Landing Page
+
+The project also includes a GitHub Pages landing page hosted on the gh-pages branch. It serves as a portfolio page with a link to a sample CV.
+
+### Future Improvements
+- Add user authentication and task management with a backend
+- Improve UI/UX with more features and animations
+- Integrate a database for persistent storage beyond local storage
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Make your changes and commit them (git commit -m 'Add some feature').
+4. Push to the branch (git push origin feature-branch).
+5. Open a Pull Request.
+
+## License
+
+This project is open source.
+
 
 
 
